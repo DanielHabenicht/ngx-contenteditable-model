@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
-import { NgxContenteditableModelComponent } from './ngx-contenteditable-model.component';
+import { ContenteditableDirective } from './ngx-contenteditable-model.directive';
 
 @NgModule({
-  declarations: [NgxContenteditableModelComponent],
+  declarations: [ContenteditableDirective],
   imports: [
   ],
-  exports: [NgxContenteditableModelComponent]
+  exports: [ContenteditableDirective]
 })
 export class NgxContenteditableModelModule { }
