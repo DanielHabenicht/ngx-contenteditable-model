@@ -1,0 +1,5 @@
+
+describe('NgxContenteditableModelDirective', () => {
+    it('fake', () => {
+    });
+});
