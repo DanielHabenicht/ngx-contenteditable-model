@@ -16,6 +16,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ngx-contenteditable-model": [
+        "dist/ngx-contenteditable-model"
+      ],
+      "ngx-contenteditable-model/*": [
+        "dist/ngx-contenteditable-model/*"
+      ]
+    }
   }
 }
